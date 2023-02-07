@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    text-align: justify;
+    color: #fff;
+    background: #19181F;
+    line-height: 45px;
+}
+
+header{
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > .menu > a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 50px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.menu{
+    display: inline-block;
+}
+
+.menu:hover{
+    background-color: #8b5cf6;
+}
+
+nav > a:visited{
+    color: #fff;
+}
+
+main{
+    margin: auto;
+    min-width: 320px;
+    max-width: 850px;
+}
+
+#first{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#last{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+#ptop{
+    font-size: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+#dan{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+#irina{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+#droid{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+#vidro{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+ul{
+    columns: 2;
+    list-style-type: none;
+}
+
+footer > p{
+    text-align: center;
+}
+
+@media (max-width: 504px){
+    #first{
+        display: block;
+    }
+
+    .menu{
+        display: block;
+        width: 100%;
+    }
+}
